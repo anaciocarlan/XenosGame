@@ -18,7 +18,7 @@ public class MainMenu implements Screen {
     private Table table = new Table();
 
     private Skin skin = new Skin(Gdx.files.internal("skins/skin.json"),
-        new TextureAtlas(Gdx.files.internal("skins/menuSkin.pack")));
+        new TextureAtlas(Gdx.files.internal("skins/MenuSkin.pack")));
 
     private TextButton buttonPlay = new TextButton("Play", skin),
         buttonExit = new TextButton("Exit", skin);
